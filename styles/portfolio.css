@@ -24,6 +24,14 @@
     border-radius: 5px;
     border: none;
 }
+/* Header Section */
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right ;
+}
+
 
 /* Nav Styles */
 nav{
@@ -48,4 +56,30 @@ nav ul li{
 }
 nav li a{
     text-decoration: none;
+}
+
+/* Banner contant */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-contant{
+    max-width: 580px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-pro-pic{
+    width: 580px;
 }
